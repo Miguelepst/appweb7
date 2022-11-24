@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Modulo1Component } from './modulo1.component';
+import { ComponentModulo1 } from './modulo1.component';
 import { Pieza23BarraLateralComponent } from './components/pieza23/pieza23-barra-lateral/pieza23-barra-lateral.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -25,7 +25,7 @@ import { Pieza23Pais3Component } from './components/pieza23/pieza23-pais3/pieza2
 
 @NgModule({
   declarations: [
-    Modulo1Component,
+    ComponentModulo1,
     Pieza23BarraLateralComponent,
     Pieza24PadreComponent,
     Pieza25PadreComponent,
@@ -52,7 +52,7 @@ import { Pieza23Pais3Component } from './components/pieza23/pieza23-pais3/pieza2
 
   ],
   exports: [
-    Modulo1Component,
+    ComponentModulo1,
 
   ]
 })
