@@ -28,7 +28,8 @@ import { Pieza27PadreComponent } from './components/pieza27/pieza27-padre/pieza2
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { Pieza28PadreComponent } from './components/pieza28/pieza28-padre/pieza28-padre.component'
 
-import { MatSelectModule } from '@angular/material/select'
+import { MatSelectModule } from '@angular/material/select';
+import { Pieza29PadreComponent } from './components/pieza29/pieza29-padre/pieza29-padre.component'
 
 
 
@@ -48,6 +49,7 @@ import { MatSelectModule } from '@angular/material/select'
     Pieza26PadreComponent,
     Pieza27PadreComponent,
     Pieza28PadreComponent,
+    Pieza29PadreComponent,
 
 
 
