@@ -25,8 +25,10 @@ import { MatRadioModule } from '@angular/material/radio';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { Pieza27PadreComponent } from './components/pieza27/pieza27-padre/pieza27-padre.component'
 
-import { MatCheckboxModule } from '@angular/material/checkbox'
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { Pieza28PadreComponent } from './components/pieza28/pieza28-padre/pieza28-padre.component'
 
+import { MatSelectModule } from '@angular/material/select'
 
 
 
@@ -45,6 +47,7 @@ import { MatCheckboxModule } from '@angular/material/checkbox'
     Pieza23Pais3Component,
     Pieza26PadreComponent,
     Pieza27PadreComponent,
+    Pieza28PadreComponent,
 
 
 
@@ -64,6 +67,7 @@ import { MatCheckboxModule } from '@angular/material/checkbox'
     MatRadioModule,
     MatFormFieldModule,
     MatCheckboxModule,
+    MatSelectModule,
 
 
   ],
