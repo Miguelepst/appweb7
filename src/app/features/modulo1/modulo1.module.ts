@@ -25,6 +25,8 @@ import { MatRadioModule } from '@angular/material/radio';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { Pieza27PadreComponent } from './components/pieza27/pieza27-padre/pieza27-padre.component'
 
+import { MatCheckboxModule } from '@angular/material/checkbox'
+
 
 
 
@@ -61,6 +63,7 @@ import { Pieza27PadreComponent } from './components/pieza27/pieza27-padre/pieza2
     FormsModule,
     MatRadioModule,
     MatFormFieldModule,
+    MatCheckboxModule,
 
 
   ],

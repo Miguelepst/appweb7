@@ -12,6 +12,7 @@ import { Pieza23Pais1Component } from './components/pieza23/pieza23-pais1/pieza2
 import { Pieza23Pais2Component } from './components/pieza23/pieza23-pais2/pieza23-pais2.component';
 import { Pieza23Pais3Component } from './components/pieza23/pieza23-pais3/pieza23-pais3.component';
 import { Pieza26PadreComponent } from './components/pieza26/pieza26-padre/pieza26-padre.component';
+import { Pieza27PadreComponent } from './components/pieza27/pieza27-padre/pieza27-padre.component';
 
 
 const routes: Routes = [
@@ -24,8 +25,11 @@ const routes: Routes = [
   { path: 'app-pieza23-barra-lateral/app-pieza23-pais1', component: Pieza23Pais1Component },
   { path: 'app-pieza23-barra-lateral/app-pieza23-pais2', component: Pieza23Pais2Component },
   { path: 'app-pieza23-barra-lateral/app-pieza23-pais3', component: Pieza23Pais3Component },
-
   { path: 'app-pieza26-padre', component: Pieza26PadreComponent },
+  { path: 'app-pieza27-padre', component: Pieza27PadreComponent },
+
+
+
 
 
 
