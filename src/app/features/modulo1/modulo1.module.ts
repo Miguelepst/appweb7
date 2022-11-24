@@ -12,6 +12,9 @@ import { Modulo1RoutingModule } from './modulo1-routing.module';
 import { Pieza24PadreComponent } from './components/pieza24/pieza24-padre/pieza24-padre.component';
 import { Pieza25PadreComponent } from './components/pieza25/pieza25-padre/pieza25-padre.component';
 
+import { MatInputModule } from '@angular/material/input';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -29,6 +32,9 @@ import { Pieza25PadreComponent } from './components/pieza25/pieza25-padre/pieza2
     MatIconModule,
     MatListModule,
     Modulo1RoutingModule,
+    MatInputModule,   //
+    FormsModule,
+
 
   ],
   exports: [
