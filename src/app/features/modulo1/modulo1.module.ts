@@ -8,7 +8,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
-
+import { Modulo1RoutingModule } from './modulo1-routing.module';
 
 
 @NgModule({
@@ -23,10 +23,12 @@ import { MatListModule } from '@angular/material/list';
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    Modulo1RoutingModule,
+
   ],
   exports: [
-    Pieza23BarraLateralComponent,
+    Modulo1Component,
 
   ]
 })
