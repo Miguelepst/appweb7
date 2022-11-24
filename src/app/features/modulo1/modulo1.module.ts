@@ -19,6 +19,14 @@ import { FormsModule } from '@angular/forms';
 import { Pieza23Pais1Component } from './components/pieza23/pieza23-pais1/pieza23-pais1.component';
 import { Pieza23Pais2Component } from './components/pieza23/pieza23-pais2/pieza23-pais2.component';
 import { Pieza23Pais3Component } from './components/pieza23/pieza23-pais3/pieza23-pais3.component';
+import { Pieza26PadreComponent } from './components/pieza26/pieza26-padre/pieza26-padre.component';
+
+import { MatRadioModule } from '@angular/material/radio';
+import { MatFormFieldModule } from '@angular/material/form-field'
+
+
+
+
 
 
 
@@ -32,6 +40,7 @@ import { Pieza23Pais3Component } from './components/pieza23/pieza23-pais3/pieza2
     Pieza23Pais1Component,
     Pieza23Pais2Component,
     Pieza23Pais3Component,
+    Pieza26PadreComponent,
 
 
 
@@ -48,6 +57,8 @@ import { Pieza23Pais3Component } from './components/pieza23/pieza23-pais3/pieza2
     Modulo1RoutingModule,
     MatInputModule,   //
     FormsModule,
+    MatRadioModule,
+    MatFormFieldModule,
 
 
   ],
