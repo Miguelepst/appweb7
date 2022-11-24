@@ -22,7 +22,8 @@ import { Pieza23Pais3Component } from './components/pieza23/pieza23-pais3/pieza2
 import { Pieza26PadreComponent } from './components/pieza26/pieza26-padre/pieza26-padre.component';
 
 import { MatRadioModule } from '@angular/material/radio';
-import { MatFormFieldModule } from '@angular/material/form-field'
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { Pieza27PadreComponent } from './components/pieza27/pieza27-padre/pieza27-padre.component'
 
 
 
@@ -41,6 +42,7 @@ import { MatFormFieldModule } from '@angular/material/form-field'
     Pieza23Pais2Component,
     Pieza23Pais3Component,
     Pieza26PadreComponent,
+    Pieza27PadreComponent,
 
 
 
