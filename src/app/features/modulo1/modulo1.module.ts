@@ -9,12 +9,14 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { Modulo1RoutingModule } from './modulo1-routing.module';
+import { Pieza24PadreComponent } from './components/pieza24/pieza24-padre/pieza24-padre.component';
 
 
 @NgModule({
   declarations: [
     Modulo1Component,
-    Pieza23BarraLateralComponent
+    Pieza23BarraLateralComponent,
+    Pieza24PadreComponent
   ],
   imports: [
     CommonModule,
