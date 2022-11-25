@@ -40,12 +40,8 @@ import { Pieza31PComponent } from './components/pieza31/pieza31-p/pieza31-p.comp
 
 import { MatTabsModule } from '@angular/material/tabs'
 
-import { MatTableModule } from '@angular/material/table'
-
-
-
-
-
+import { MatTableModule } from '@angular/material/table';
+import { Pieza32PComponent } from './components/pieza32/pieza32-p/pieza32-p.component'
 
 
 @NgModule({
@@ -63,6 +59,7 @@ import { MatTableModule } from '@angular/material/table'
     Pieza29PadreComponent,
     Pieza30Component,
     Pieza31PComponent,
+    Pieza32PComponent,
 
 
 

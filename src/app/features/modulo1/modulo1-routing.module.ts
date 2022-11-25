@@ -20,6 +20,7 @@ import { Pieza31PComponent } from './components/pieza31/pieza31-p/pieza31-p.comp
 import { Pieza32PComponent } from './components/pieza32/pieza32-p/pieza32-p.component';
 
 
+
 const routes: Routes = [
 
 
@@ -37,6 +38,9 @@ const routes: Routes = [
   { path: 'app-pieza30', component: Pieza30Component },
   { path: 'app-pieza31-p', component: Pieza31PComponent },
   { path: 'app-pieza32-p', component: Pieza32PComponent },
+
+
+
 
 
 
