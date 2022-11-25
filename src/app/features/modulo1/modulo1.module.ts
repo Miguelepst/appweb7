@@ -36,7 +36,10 @@ import { Pieza30Component } from './components/pieza30/pieza30/pieza30.component
 
 
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
-import { Pieza31PComponent } from './components/pieza31/pieza31-p/pieza31-p.component'
+import { Pieza31PComponent } from './components/pieza31/pieza31-p/pieza31-p.component';
+
+import { MatTabsModule } from '@angular/material/tabs'
+
 
 
 
@@ -81,7 +84,7 @@ import { Pieza31PComponent } from './components/pieza31/pieza31-p/pieza31-p.comp
     MatSelectModule,
     MatSliderModule,
     MatSlideToggleModule,
-
+    MatTabsModule,
 
   ],
   exports: [
