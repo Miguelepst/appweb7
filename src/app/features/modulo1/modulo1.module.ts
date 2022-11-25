@@ -35,6 +35,9 @@ import { MatSliderModule } from '@angular/material/slider';
 import { Pieza30Component } from './components/pieza30/pieza30/pieza30.component'
 
 
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { Pieza31PComponent } from './components/pieza31/pieza31-p/pieza31-p.component'
+
 
 
 
@@ -55,6 +58,7 @@ import { Pieza30Component } from './components/pieza30/pieza30/pieza30.component
     Pieza28PadreComponent,
     Pieza29PadreComponent,
     Pieza30Component,
+    Pieza31PComponent,
 
 
 
@@ -76,6 +80,7 @@ import { Pieza30Component } from './components/pieza30/pieza30/pieza30.component
     MatCheckboxModule,
     MatSelectModule,
     MatSliderModule,
+    MatSlideToggleModule,
 
 
   ],

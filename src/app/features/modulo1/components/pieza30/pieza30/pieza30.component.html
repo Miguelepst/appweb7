@@ -1,1 +1,19 @@
-<p>pieza30 works!</p>
+<div class="contenedor">
+
+  <mat-form-field>
+    <input matInput [(ngModel)]="valor1" type="number" placeholder="Ingrese primer valor">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput [(ngModel)]="valor2" type="number" placeholder="Ingrese segundo valor">
+  </mat-form-field>
+
+  <mat-slide-toggle [(ngModel)]="opcion1" style="margin: 0.5rem;">Sumar</mat-slide-toggle>
+  <mat-slide-toggle [(ngModel)]="opcion2" style="margin: 0.5rem;">Restar</mat-slide-toggle>
+  <mat-slide-toggle [(ngModel)]="opcion3" style="margin: 0.5rem;">Multiplicar</mat-slide-toggle>
+  <mat-slide-toggle [(ngModel)]="opcion4" style="margin: 0.5rem;">Dividir</mat-slide-toggle>
+
+  <button mat-raised-button color="primary" (click)="operar()">Operar</button>
+  <p style="margin: 1rem;">{{resultado}}</p>
+
+</div>
