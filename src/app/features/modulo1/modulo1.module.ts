@@ -46,7 +46,10 @@ import { Pieza33PComponent } from './components/pieza33/pieza33-p/pieza33-p.comp
 
 import { MatPaginatorModule } from '@angular/material/paginator'
 
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { Pieza34PComponent } from './components/pieza34/pieza34-p/pieza34-p.component'
+
+import { MatSortModule } from '@angular/material/sort'
 
 
 @NgModule({
@@ -66,6 +69,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
     Pieza31PComponent,
     Pieza32PComponent,
     Pieza33PComponent,
+    Pieza34PComponent,
 
 
 
@@ -92,6 +96,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
     MatTableModule,
     MatPaginatorModule,
     BrowserAnimationsModule,
+    MatSortModule,
 
 
 
