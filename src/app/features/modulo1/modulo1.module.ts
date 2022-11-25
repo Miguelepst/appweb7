@@ -31,7 +31,8 @@ import { Pieza28PadreComponent } from './components/pieza28/pieza28-padre/pieza2
 import { MatSelectModule } from '@angular/material/select';
 import { Pieza29PadreComponent } from './components/pieza29/pieza29-padre/pieza29-padre.component'
 
-import { MatSliderModule } from '@angular/material/slider'
+import { MatSliderModule } from '@angular/material/slider';
+import { Pieza30Component } from './components/pieza30/pieza30/pieza30.component'
 
 
 
@@ -53,6 +54,7 @@ import { MatSliderModule } from '@angular/material/slider'
     Pieza27PadreComponent,
     Pieza28PadreComponent,
     Pieza29PadreComponent,
+    Pieza30Component,
 
 
 
