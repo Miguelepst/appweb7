@@ -53,8 +53,10 @@ import { Pieza34PComponent } from './components/pieza34/pieza34-p/pieza34-p.comp
 
 import { MatSortModule } from '@angular/material/sort';
 import { Pieza35PComponent } from './components/pieza35/pieza35-p/pieza35-p.component';
-import { Pieza36PComponent } from './components/pieza36/pieza36-p/pieza36-p.component'
+import { Pieza36PComponent } from './components/pieza36/pieza36-p/pieza36-p.component';
+import { DialogoarticuloComponent } from './components/pieza36/pieza36-components/dialogoarticulo/dialogoarticulo.component'
 
+import { MatDialogModule } from '@angular/material/dialog'
 
 @NgModule({
   declarations: [
@@ -76,6 +78,7 @@ import { Pieza36PComponent } from './components/pieza36/pieza36-p/pieza36-p.comp
     Pieza34PComponent,
     Pieza35PComponent,
     Pieza36PComponent,
+    DialogoarticuloComponent,
 
 
 
@@ -104,6 +107,7 @@ import { Pieza36PComponent } from './components/pieza36/pieza36-p/pieza36-p.comp
     MatPaginatorModule,
     BrowserAnimationsModule,
     MatSortModule,
+    MatDialogModule,
 
 
 
