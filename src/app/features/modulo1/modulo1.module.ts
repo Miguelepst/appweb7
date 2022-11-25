@@ -52,7 +52,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { Pieza34PComponent } from './components/pieza34/pieza34-p/pieza34-p.component'
 
 import { MatSortModule } from '@angular/material/sort';
-import { Pieza35PComponent } from './components/pieza35/pieza35-p/pieza35-p.component'
+import { Pieza35PComponent } from './components/pieza35/pieza35-p/pieza35-p.component';
+import { Pieza36PComponent } from './components/pieza36/pieza36-p/pieza36-p.component'
 
 
 @NgModule({
@@ -74,6 +75,7 @@ import { Pieza35PComponent } from './components/pieza35/pieza35-p/pieza35-p.comp
     Pieza33PComponent,
     Pieza34PComponent,
     Pieza35PComponent,
+    Pieza36PComponent,
 
 
 
