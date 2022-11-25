@@ -41,7 +41,12 @@ import { Pieza31PComponent } from './components/pieza31/pieza31-p/pieza31-p.comp
 import { MatTabsModule } from '@angular/material/tabs'
 
 import { MatTableModule } from '@angular/material/table';
-import { Pieza32PComponent } from './components/pieza32/pieza32-p/pieza32-p.component'
+import { Pieza32PComponent } from './components/pieza32/pieza32-p/pieza32-p.component';
+import { Pieza33PComponent } from './components/pieza33/pieza33-p/pieza33-p.component'
+
+import { MatPaginatorModule } from '@angular/material/paginator'
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 
 
 @NgModule({
@@ -60,6 +65,7 @@ import { Pieza32PComponent } from './components/pieza32/pieza32-p/pieza32-p.comp
     Pieza30Component,
     Pieza31PComponent,
     Pieza32PComponent,
+    Pieza33PComponent,
 
 
 
@@ -84,6 +90,8 @@ import { Pieza32PComponent } from './components/pieza32/pieza32-p/pieza32-p.comp
     MatSlideToggleModule,
     MatTabsModule,
     MatTableModule,
+    MatPaginatorModule,
+    BrowserAnimationsModule,
 
 
 
