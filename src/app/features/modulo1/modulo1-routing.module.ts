@@ -14,6 +14,7 @@ import { Pieza23Pais3Component } from './components/pieza23/pieza23-pais3/pieza2
 import { Pieza26PadreComponent } from './components/pieza26/pieza26-padre/pieza26-padre.component';
 import { Pieza27PadreComponent } from './components/pieza27/pieza27-padre/pieza27-padre.component';
 import { Pieza28PadreComponent } from './components/pieza28/pieza28-padre/pieza28-padre.component';
+import { Pieza29PadreComponent } from './components/pieza29/pieza29-padre/pieza29-padre.component';
 
 
 const routes: Routes = [
@@ -29,6 +30,7 @@ const routes: Routes = [
   { path: 'app-pieza26-padre', component: Pieza26PadreComponent },
   { path: 'app-pieza27-padre', component: Pieza27PadreComponent },
   { path: 'app-pieza28-padre', component: Pieza28PadreComponent },
+  { path: 'app-pieza29-padre', component: Pieza29PadreComponent },
 
 
 

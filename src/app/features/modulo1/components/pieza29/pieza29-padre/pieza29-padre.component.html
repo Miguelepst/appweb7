@@ -1,1 +1,39 @@
-<p>pieza29-padre works!</p>
+<mat-slider [(ngModel)]="slider1" thumbLabel (change)="cambiar()" min="1" max="200">
+  <input matSliderThumb>
+</mat-slider>
+
+<br>
+<mat-slider [(ngModel)]="slider2" thumbLabel (change)="cambiar()" min="1" max="200">
+  <input matSliderThumb>
+</mat-slider>
+
+<br>
+<mat-slider [(ngModel)]="slider3" thumbLabel (change)="cambiar()" min="1" max="200">
+  <input matSliderThumb>
+</mat-slider><br>
+La suma de los tres slider:{{suma}}
+
+
+<br>
+<mat-slider [(ngModel)]="slider1" (change)="cambiar()" thumbLabel min="1" max="200" step="0.5" value="1.5">
+  <input matSliderThumb>
+</mat-slider>
+
+
+<br>
+<mat-slider [(ngModel)]="slider2" (change)="cambiar()" thumbLabel min="1" max="200" step="0.5" value="1.5">
+  <input matSliderThumb>
+</mat-slider>
+
+<br>
+<mat-slider [(ngModel)]="slider3" (change)="cambiar()" thumbLabel min="1" max="200" step="0.5" value="1.5">
+  <input matSliderThumb>
+</mat-slider>
+
+<br>
+La suma de los tres slider:{{suma}}
+
+<br>
+
+<h2>Simple Slider: {{suma}}</h2>
+<md-slider [(ngModel)]="slider3" min="0" max="50"></md-slider>

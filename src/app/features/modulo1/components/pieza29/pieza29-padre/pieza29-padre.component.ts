@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class Pieza29PadreComponent {
 
+
+  slider1: number = 0;
+  slider2: number = 0;
+  slider3: number = 0;
+  suma = 0;
+
+  cambiar() {
+    this.suma = this.slider1 + this.slider2 + this.slider3;
+    this.suma = this.slider3;
+  }
+
+
 }
