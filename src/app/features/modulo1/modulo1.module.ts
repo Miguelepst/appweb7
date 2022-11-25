@@ -88,6 +88,7 @@ import { Pieza32PComponent } from './components/pieza32/pieza32-p/pieza32-p.comp
 
 
 
+
   ],
   exports: [
     ComponentModulo1,
