@@ -22,6 +22,7 @@ import { Pieza33PComponent } from './components/pieza33/pieza33-p/pieza33-p.comp
 import { Pieza34PComponent } from './components/pieza34/pieza34-p/pieza34-p.component';
 import { Pieza35PComponent } from './components/pieza35/pieza35-p/pieza35-p.component';
 import { Pieza36PComponent } from './components/pieza36/pieza36-p/pieza36-p.component';
+import { Pieza37PComponent } from './components/pieza37/pieza37-p/pieza37-p.component';
 
 
 
@@ -46,6 +47,9 @@ const routes: Routes = [
   { path: 'app-pieza34-p', component: Pieza34PComponent },
   { path: 'app-pieza35-p', component: Pieza35PComponent },
   { path: 'app-pieza36-p', component: Pieza36PComponent },
+  { path: 'app-pieza37-p', component: Pieza37PComponent },
+
+
 
 
 

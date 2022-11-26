@@ -56,7 +56,9 @@ import { Pieza35PComponent } from './components/pieza35/pieza35-p/pieza35-p.comp
 import { Pieza36PComponent } from './components/pieza36/pieza36-p/pieza36-p.component';
 import { DialogoarticuloComponent } from './components/pieza36/pieza36-components/dialogoarticulo/dialogoarticulo.component'
 
-import { MatDialogModule } from '@angular/material/dialog'
+import { MatDialogModule } from '@angular/material/dialog';
+import { Pieza37PComponent } from './components/pieza37/pieza37-p/pieza37-p.component'
+import { Modulo2Module } from '../modulo2/modulo2.module';
 
 @NgModule({
   declarations: [
@@ -79,6 +81,7 @@ import { MatDialogModule } from '@angular/material/dialog'
     Pieza35PComponent,
     Pieza36PComponent,
     DialogoarticuloComponent,
+    Pieza37PComponent,
 
 
 
@@ -108,6 +111,7 @@ import { MatDialogModule } from '@angular/material/dialog'
     BrowserAnimationsModule,
     MatSortModule,
     MatDialogModule,
+    Modulo2Module,
 
 
 
