@@ -59,6 +59,12 @@ import { DialogoarticuloComponent } from './components/pieza36/pieza36-component
 import { MatDialogModule } from '@angular/material/dialog';
 import { Pieza37PComponent } from './components/pieza37/pieza37-p/pieza37-p.component'
 import { Modulo2Module } from '../modulo2/modulo2.module';
+import { Pieza38PComponent } from './components/pieza38/pieza38-p/pieza38-p.component';
+
+import { MatMenuModule } from '@angular/material/menu'
+
+
+
 
 @NgModule({
   declarations: [
@@ -82,6 +88,7 @@ import { Modulo2Module } from '../modulo2/modulo2.module';
     Pieza36PComponent,
     DialogoarticuloComponent,
     Pieza37PComponent,
+    Pieza38PComponent,
 
 
 
@@ -112,6 +119,7 @@ import { Modulo2Module } from '../modulo2/modulo2.module';
     MatSortModule,
     MatDialogModule,
     Modulo2Module,
+    MatMenuModule,
 
 
 
