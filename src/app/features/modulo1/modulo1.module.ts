@@ -65,7 +65,8 @@ import { MatMenuModule } from '@angular/material/menu';
 import { Pieza39PComponent } from './components/pieza39/pieza39-p/pieza39-p.component'
 
 import { HttpClientModule } from '@angular/common/http';
-import { MatCardModule } from '@angular/material/card'
+import { MatCardModule } from '@angular/material/card';
+import { Pieza40PComponent } from './components/pieza40/pieza40-p/pieza40-p.component'
 
 
 
@@ -93,6 +94,7 @@ import { MatCardModule } from '@angular/material/card'
     Pieza37PComponent,
     Pieza38PComponent,
     Pieza39PComponent,
+    Pieza40PComponent,
 
 
 
@@ -126,6 +128,7 @@ import { MatCardModule } from '@angular/material/card'
     MatMenuModule,
     HttpClientModule,
     MatCardModule,
+
 
 
 
