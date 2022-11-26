@@ -61,8 +61,11 @@ import { Pieza37PComponent } from './components/pieza37/pieza37-p/pieza37-p.comp
 import { Modulo2Module } from '../modulo2/modulo2.module';
 import { Pieza38PComponent } from './components/pieza38/pieza38-p/pieza38-p.component';
 
-import { MatMenuModule } from '@angular/material/menu'
+import { MatMenuModule } from '@angular/material/menu';
+import { Pieza39PComponent } from './components/pieza39/pieza39-p/pieza39-p.component'
 
+import { HttpClientModule } from '@angular/common/http';
+import { MatCardModule } from '@angular/material/card'
 
 
 
@@ -89,6 +92,7 @@ import { MatMenuModule } from '@angular/material/menu'
     DialogoarticuloComponent,
     Pieza37PComponent,
     Pieza38PComponent,
+    Pieza39PComponent,
 
 
 
@@ -120,7 +124,8 @@ import { MatMenuModule } from '@angular/material/menu'
     MatDialogModule,
     Modulo2Module,
     MatMenuModule,
-
+    HttpClientModule,
+    MatCardModule,
 
 
 
