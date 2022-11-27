@@ -1,0 +1,17 @@
+<div style="width: 70%;margin:0 auto" *ngIf="post!=null">
+  <!-- mat-accordion: solo expande uno al tiempo  -->
+  <mat-accordion>
+    <mat-expansion-panel *ngFor="let p of post">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <h2>{{p.title}}</h2>
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      {{p.body}}
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>
+
+
+<p>Concepto: 54
+  - Angular Material: Panel - mat-expansion-panel, pieza 41. works!</p>

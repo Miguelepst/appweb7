@@ -66,8 +66,10 @@ import { Pieza39PComponent } from './components/pieza39/pieza39-p/pieza39-p.comp
 
 import { HttpClientModule } from '@angular/common/http';
 import { MatCardModule } from '@angular/material/card';
-import { Pieza40PComponent } from './components/pieza40/pieza40-p/pieza40-p.component'
+import { Pieza40PComponent } from './components/pieza40/pieza40-p/pieza40-p.component';
+import { Pieza41PComponent } from './components/pieza41/pieza41-p/pieza41-p.component'
 
+import { MatExpansionModule } from '@angular/material/expansion'
 
 
 @NgModule({
@@ -95,6 +97,7 @@ import { Pieza40PComponent } from './components/pieza40/pieza40-p/pieza40-p.comp
     Pieza38PComponent,
     Pieza39PComponent,
     Pieza40PComponent,
+    Pieza41PComponent,
 
 
 
@@ -128,7 +131,7 @@ import { Pieza40PComponent } from './components/pieza40/pieza40-p/pieza40-p.comp
     MatMenuModule,
     HttpClientModule,
     MatCardModule,
-
+    MatExpansionModule,
 
 
 
