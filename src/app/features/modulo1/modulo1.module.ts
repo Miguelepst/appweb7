@@ -70,7 +70,8 @@ import { Pieza40PComponent } from './components/pieza40/pieza40-p/pieza40-p.comp
 import { Pieza41PComponent } from './components/pieza41/pieza41-p/pieza41-p.component'
 
 import { MatExpansionModule } from '@angular/material/expansion';
-import { Pieza42PComponent } from './components/pieza42/pieza42-p/pieza42-p.component'
+import { Pieza42PComponent } from './components/pieza42/pieza42-p/pieza42-p.component';
+import { Pieza43PComponent } from './components/pieza43/pieza43-p/pieza43-p.component'
 
 
 @NgModule({
@@ -100,6 +101,7 @@ import { Pieza42PComponent } from './components/pieza42/pieza42-p/pieza42-p.comp
     Pieza40PComponent,
     Pieza41PComponent,
     Pieza42PComponent,
+    Pieza43PComponent,
 
 
 
