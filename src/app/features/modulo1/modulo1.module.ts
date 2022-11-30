@@ -74,7 +74,9 @@ import { Pieza42PComponent } from './components/pieza42/pieza42-p/pieza42-p.comp
 import { Pieza43PComponent } from './components/pieza43/pieza43-p/pieza43-p.component';
 import { Pieza44PComponent } from './components/pieza44/pieza44-p/pieza44-p.component';
 import { Pieza45PComponent } from './components/pieza45/pieza45-p/pieza45-p.component';
-import { Pieza45HComponent } from './components/pieza45/pieza45-h/pieza45-h.component'
+import { Pieza45HComponent } from './components/pieza45/pieza45-h/pieza45-h.component';
+import { Pieza46PComponent } from './components/pieza46/pieza46-p/pieza46-p.component';
+import { Pieza46AComponent } from './components/pieza46/pieza46-a/pieza46-a.component'
 
 
 @NgModule({
@@ -108,6 +110,8 @@ import { Pieza45HComponent } from './components/pieza45/pieza45-h/pieza45-h.comp
     Pieza44PComponent,
     Pieza45PComponent,
     Pieza45HComponent,
+    Pieza46PComponent,
+    Pieza46AComponent,
 
 
 

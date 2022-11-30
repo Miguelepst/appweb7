@@ -24,16 +24,27 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "@angular/material/prebuilt-themes/indigo-pink.css",
-              "src/styles.css"
+            "styles": [{
+                "input": "src/styles.css"
+              },
+              {
+                "input": "./node_modules/bootstrap/dist/css/mg/bootstrap.min.css"
+              }
             ],
-            "scripts": []
+            "scripts": [{
+                "input": "./node_modules/jquery/dist/mg/jquery-3.4.1.slim.min.js"
+              },
+              {
+                "input": "./node_modules/bootstrap/dist/js/mg/bootstrap.min.js"
+              },
+              {
+                "input": "./node_modules/popper.js/dist/umd/mg/popper.min.js"
+              }
+            ]
           },
           "configurations": {
             "production": {
-              "budgets": [
-                {
+              "budgets": [{
                   "type": "initial",
                   "maximumWarning": "500kb",
                   "maximumError": "1mb"
