@@ -76,7 +76,13 @@ import { Pieza44PComponent } from './components/pieza44/pieza44-p/pieza44-p.comp
 import { Pieza45PComponent } from './components/pieza45/pieza45-p/pieza45-p.component';
 import { Pieza45HComponent } from './components/pieza45/pieza45-h/pieza45-h.component';
 import { Pieza46PComponent } from './components/pieza46/pieza46-p/pieza46-p.component';
-import { Pieza46AComponent } from './components/pieza46/pieza46-a/pieza46-a.component'
+import { Pieza46AComponent } from './components/pieza46/pieza46-a/pieza46-a.component';
+import { Pieza47PComponent } from './components/pieza47/pieza47-p/pieza47-p.component';
+import { Pieza47AComponent } from './components/pieza47/pieza47-a/pieza47-a.component';
+import { TarjetaComponent } from './components/pieza48/components/tarjeta/tarjeta.component';
+import { Pieza48Component } from './components/pieza48/pieza48.component';
+
+
 
 
 @NgModule({
@@ -112,6 +118,12 @@ import { Pieza46AComponent } from './components/pieza46/pieza46-a/pieza46-a.comp
     Pieza45HComponent,
     Pieza46PComponent,
     Pieza46AComponent,
+    Pieza47PComponent,
+    Pieza47AComponent,
+    TarjetaComponent,
+    Pieza48Component,
+    
+
 
 
 
