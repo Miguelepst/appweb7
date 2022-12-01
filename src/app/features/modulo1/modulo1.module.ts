@@ -81,6 +81,9 @@ import { Pieza47PComponent } from './components/pieza47/pieza47-p/pieza47-p.comp
 import { Pieza47AComponent } from './components/pieza47/pieza47-a/pieza47-a.component';
 import { TarjetaComponent } from './components/pieza48/components/tarjeta/tarjeta.component';
 import { Pieza48Component } from './components/pieza48/pieza48.component';
+import { Pieza49Component } from './components/pieza49/pieza49.component';
+import { ResaltadoDirective } from './components/pieza50/directives/resaltado.directive';
+import { Pieza50Component } from './components/pieza50/pieza50.component';
 
 
 
@@ -122,6 +125,9 @@ import { Pieza48Component } from './components/pieza48/pieza48.component';
     Pieza47AComponent,
     TarjetaComponent,
     Pieza48Component,
+    Pieza49Component,
+    ResaltadoDirective,
+    Pieza50Component,
     
 
 
