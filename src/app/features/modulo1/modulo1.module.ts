@@ -86,6 +86,9 @@ import { ResaltadoDirective } from './components/pieza50/directives/resaltado.di
 import { Pieza50Component } from './components/pieza50/pieza50.component';
 import { Pieza51Component } from './components/pieza51/pieza51.component';
 import { TextovozDirective } from './components/pieza51/directives/textovoz.directive';
+import { Pieza52Component } from './components/pieza52/pieza52.component';
+import { RepetirDirective } from './components/pieza52/directives/repetir.directive';
+
 
 
 
@@ -132,6 +135,8 @@ import { TextovozDirective } from './components/pieza51/directives/textovoz.dire
     Pieza50Component,
     Pieza51Component,
     TextovozDirective,
+    Pieza52Component,
+    RepetirDirective,
     
 
 
@@ -168,6 +173,7 @@ import { TextovozDirective } from './components/pieza51/directives/textovoz.dire
     HttpClientModule,
     MatCardModule,
     MatExpansionModule,
+    
 
 
 
