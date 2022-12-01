@@ -36,6 +36,7 @@ import { Pieza47PComponent } from './components/pieza47/pieza47-p/pieza47-p.comp
 import { Pieza48Component } from './components/pieza48/pieza48.component';
 import { Pieza49Component } from './components/pieza49/pieza49.component';
 import { Pieza50Component } from './components/pieza50/pieza50.component';
+import { Pieza51Component } from './components/pieza51/pieza51.component';
 
 
 
@@ -74,6 +75,9 @@ const routes: Routes = [
   { path: 'app-pieza48', component: Pieza48Component },
   { path: 'app-pieza49', component: Pieza49Component },
   { path: 'app-pieza50', component: Pieza50Component },
+  { path: 'app-pieza51', component: Pieza51Component },
+
+  
 
   
 
