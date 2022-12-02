@@ -88,7 +88,27 @@ import { Pieza51Component } from './components/pieza51/pieza51.component';
 import { TextovozDirective } from './components/pieza51/directives/textovoz.directive';
 import { Pieza52Component } from './components/pieza52/pieza52.component';
 import { RepetirDirective } from './components/pieza52/directives/repetir.directive';
+import { TablanroComponent } from './components/pieza53/components/tablanro/tablanro.component';
 
+/* import { Pieza53RoutingModule } from './components/pieza53/pieza53-routing.module'; */
+
+import { Pieza54Component } from './components/pieza54/pieza54.component';
+import { AmericaComponent } from './components/pieza54/america/america.component';
+
+/* import { ChileComponent } from './components/pieza54/america/chile/chile.component';
+import { ArgentinaComponent } from './components/pieza54/america/argentina/argentina.component';
+import { UruguayComponent } from './components/pieza54/america/uruguay/uruguay.component'; */
+
+import { EuropaComponent } from './components/pieza54/europa/europa.component';
+
+/* import { EspanaComponent } from './components/pieza54/europa/espana/espana.component';
+import { FranciaComponent } from './components/pieza54/europa/francia/francia.component';
+import { ItaliaComponent } from './components/pieza54/europa/italia/italia.component';
+import { ItaliaAnidado1Component } from './components/pieza54/europa/italia/italia-anidado1/italia-anidado1.component'; */
+
+import { Pieza53Component } from './components/pieza53/pieza53.component';
+import { Pieza55Component } from './components/pieza55/pieza55.component';
+import { ItaliaComponent } from './components/pieza54/europa/italia/italia.component';
 
 
 
@@ -137,6 +157,22 @@ import { RepetirDirective } from './components/pieza52/directives/repetir.direct
     TextovozDirective,
     Pieza52Component,
     RepetirDirective,
+    TablanroComponent,
+    Pieza54Component,
+    AmericaComponent,
+    /* ChileComponent,
+    ArgentinaComponent,
+    UruguayComponent, */
+    EuropaComponent,
+/*     FranciaComponent,
+    EspanaComponent,
+    ItaliaComponent,
+    ItaliaAnidado1Component, */
+    ItaliaComponent,
+    Pieza53Component,
+    Pieza55Component,
+    
+
     
 
 
@@ -173,6 +209,7 @@ import { RepetirDirective } from './components/pieza52/directives/repetir.direct
     HttpClientModule,
     MatCardModule,
     MatExpansionModule,
+    /* Pieza53RoutingModule, */
     
 
 

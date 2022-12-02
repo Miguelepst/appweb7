@@ -38,6 +38,19 @@ import { Pieza49Component } from './components/pieza49/pieza49.component';
 import { Pieza50Component } from './components/pieza50/pieza50.component';
 import { Pieza51Component } from './components/pieza51/pieza51.component';
 import { Pieza52Component } from './components/pieza52/pieza52.component';
+import { Pieza53Component } from './components/pieza53/pieza53.component';
+import { AmericaComponent } from './components/pieza54/america/america.component';
+import { ChileComponent } from './components/pieza54/america/chile/chile.component';
+import { ArgentinaComponent } from './components/pieza54/america/argentina/argentina.component';
+import { UruguayComponent } from './components/pieza54/america/uruguay/uruguay.component';
+import { EuropaComponent } from './components/pieza54/europa/europa.component';
+import { EspanaComponent } from './components/pieza54/europa/espana/espana.component';
+import { FranciaComponent } from './components/pieza54/europa/francia/francia.component';
+import { ItaliaComponent } from './components/pieza54/europa/italia/italia.component';
+import { ItaliaAnidado1Component } from './components/pieza54/europa/italia/italia-anidado1/italia-anidado1.component';
+import { Pieza54Component } from './components/pieza54/pieza54.component';
+import { TablanroComponent } from './components/pieza53/components/tablanro/tablanro.component';
+import { Pieza55Component } from './components/pieza55/pieza55.component';
 
 
 
@@ -78,45 +91,56 @@ const routes: Routes = [
   { path: 'app-pieza50', component: Pieza50Component },
   { path: 'app-pieza51', component: Pieza51Component },
   { path: 'app-pieza52', component: Pieza52Component },
+  /* { path: 'app-pieza53', component: Pieza53Component }, */
 
+  { path: 'app-pieza53', component: Pieza53Component,
+  children :[
+{ path:'tabla/:nro', component: TablanroComponent }
 
-  
-  
+  ]
+},
 
-  
+  { path: 'app-pieza54', component: Pieza54Component,
+children:[
 
-  
-  
+  { path: 'america',    component: AmericaComponent,    
+children: [  
+  {  path: 'chile',      component: ChileComponent      },
+  {  path: 'argentina',  component: ArgentinaComponent  },
+  {  path: 'uruguay',    component: UruguayComponent    }
+    ]
+  },
+  { path: 'europa',  component: EuropaComponent,
+    children: [
+      {  path: 'espana', component: EspanaComponent     },
+      {  path: 'francia', component: FranciaComponent   },
+      {  path: 'italia',  component: ItaliaComponent,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      children:[
+        {  path: 'italia-anidado1', component:  ItaliaAnidado1Component     },
+      ]
+    
+    }
+    ]
+  },
+]
+},
 
 
 
+{ path: 'app-pieza55', component: Pieza55Component },
+
+
+ {
+    path: 'app-pieza55/america',
+    component: AmericaComponent,
+    loadChildren: () => import('./components/pieza55/module-america/module-america.module').then(m => m.ModuleAmericaModule)
+  },
+  {
+    path: 'app-pieza55/europa',
+    component: EuropaComponent,
+    loadChildren: () => import('./components/pieza55/module-europa/module-europa.module').then(m => m.ModuleEuropaModule)
+  },
 
 
 
