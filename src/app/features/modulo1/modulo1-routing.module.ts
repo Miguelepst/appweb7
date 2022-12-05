@@ -51,6 +51,15 @@ import { ItaliaAnidado1Component } from './components/pieza54/europa/italia/ital
 import { Pieza54Component } from './components/pieza54/pieza54.component';
 import { TablanroComponent } from './components/pieza53/components/tablanro/tablanro.component';
 import { Pieza55Component } from './components/pieza55/pieza55.component';
+import { Pieza56Component } from './components/pieza56/pieza56.component';
+import { Pieza57Component } from './components/pieza57/pieza57.component';
+import { Pieza58Component } from './components/pieza58/pieza58.component';
+import { Pieza59Component } from './components/pieza59/pieza59.component';
+import { Pieza60Component } from './components/pieza60/pieza60.component';
+import { Pieza61Component } from './components/pieza61/pieza61.component';
+import { Pieza62Component } from './components/pieza62/pieza62.component';
+import { Pieza63Component } from './components/pieza63/pieza63.component';
+
 
 
 
@@ -143,7 +152,24 @@ children: [
   },
 
 
+   { path: 'app-pieza56',  component: Pieza56Component  }, 
 
+   { path: 'app-pieza57',  component: Pieza57Component  }, 
+   { path: 'app-pieza58',  component: Pieza58Component  }, 
+   { path: 'app-pieza59',  component: Pieza59Component  }, 
+   { path: 'app-pieza60',  component: Pieza60Component  }, 
+   { path: 'app-pieza61',  component: Pieza61Component  }, 
+   { path: 'app-pieza62',  component: Pieza62Component  }, 
+   { path: 'app-pieza63',  component: Pieza63Component  }, 
+
+   
+
+   
+   
+
+   
+
+  
 
 
 

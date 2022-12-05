@@ -110,8 +110,27 @@ import { Pieza53Component } from './components/pieza53/pieza53.component';
 import { Pieza55Component } from './components/pieza55/pieza55.component';
 import { ItaliaComponent } from './components/pieza54/europa/italia/italia.component';
 
+/* import { Pieza56Component } from './components/pieza56/pieza56.component'; */
+import { ModuloPieza56Module } from './components/pieza56/sitio-web1/modulo-pieza56.module';
+/* 
+import { InicioComponent } from './components/pieza56/components/paginas/inicio/inicio.component';
+import { MapaComponent } from './components/pieza56/components/paginas/mapa/mapa.component';
+import { ContactoComponent } from './components/pieza56/components/paginas/contacto/contacto.component';
+import { AcercaDeComponent } from './components/pieza56/components/paginas/acerca-de/acerca-de.component';
+import { Pagina404Component } from './components/pieza56/components/paginas/pagina404/pagina404.component';
 
+ */
 
+import { Pieza56Component } from './components/pieza56/pieza56.component';
+import { Pieza57Component } from './components/pieza57/pieza57.component';
+
+import { ReactiveFormsModule } from '@angular/forms';
+import { Pieza58Component } from './components/pieza58/pieza58.component';
+import { Pieza59Component } from './components/pieza59/pieza59.component';
+import { Pieza60Component } from './components/pieza60/pieza60.component';
+import { Pieza61Component } from './components/pieza61/pieza61.component';
+import { Pieza62Component } from './components/pieza62/pieza62.component';
+import { Pieza63Component } from './components/pieza63/pieza63.component';
 
 @NgModule({
   declarations: [
@@ -171,6 +190,27 @@ import { ItaliaComponent } from './components/pieza54/europa/italia/italia.compo
     ItaliaComponent,
     Pieza53Component,
     Pieza55Component,
+    Pieza56Component,
+    Pieza57Component,
+    Pieza58Component,
+    Pieza59Component,
+    Pieza60Component,
+    Pieza61Component,
+    Pieza62Component,
+    Pieza63Component,
+    
+    
+    
+    
+    /* Pieza56Component, */
+    
+
+//     InicioComponent,
+//    MapaComponent,
+//    ContactoComponent,
+//    AcercaDeComponent,
+//    Pagina404Component, 
+    
     
 
     
@@ -210,6 +250,8 @@ import { ItaliaComponent } from './components/pieza54/europa/italia/italia.compo
     MatCardModule,
     MatExpansionModule,
     /* Pieza53RoutingModule, */
+    ModuloPieza56Module,
+    ReactiveFormsModule,
     
 
 
